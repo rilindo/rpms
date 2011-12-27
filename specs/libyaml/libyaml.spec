@@ -4,7 +4,7 @@
 
 Summary: Implementation of a YAML 1.1 parser and emitter
 Name: libyaml
-Version: 0.1.3
+Version: 0.1.4
 Release: 1%{?dist}
 License: MIT/X Consortium
 Group: Development/Libraries
@@ -56,6 +56,8 @@ you will need to install %{name}-devel.
 %exclude %{_libdir}/*.la
 
 %changelog
+* Tue Dec 27 2011 Rilindo Foster <rilindo.foster@monzell.com> - 0.1.3-1
+- Updated to release 0.1.4.
 * Mon May 17 2010 Dag Wieers <dag@wieers.com> - 0.1.3-1
 - Updated to release 0.1.3.
 
